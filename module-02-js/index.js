@@ -81,19 +81,20 @@
 // console.log(checkForSpam('[SPAM] How to earn fast money?'));
 
 // ________Exercise6_____________
-let input;
-const numbers = [];
-let total = 0;
+// let input;
+// const numbers = [];
+// let total = 0;
 
-while (input !== null) {
-    input = prompt('Введите число');
-    if (Number.isNaN(+input)){
-        alert("Было введено не чесло, попробуйте ещё раз");
-    }else{
-        numbers.push(+input);
-    }
-}
-for (const integer of numbers) {
-    total += +integer;
-}
-console.log(`Общая суммв чисел равна ${total}`);
+// while (input !== null) {
+//     input = prompt('Введите число');
+//     if (Number.isNaN(+input)){
+//         alert("Было введено не чесло, попробуйте ещё раз");
+//     }else{
+//         numbers.push(+input);
+//     }
+// }
+// for (const integer of numbers) {
+//     total += +integer;
+// }
+// console.log(`Общая суммв чисел равна ${total}`);
+ 
