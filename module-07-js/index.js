@@ -10,8 +10,34 @@
 
 
 // _________________________________Exersice1____________
+// let list = document.querySelectorAll('.item');
+// console.log(`В списке ${list.length} категорий`);
+// let title = [...list].map(el => el.children[0].textContent);
+// let elements = [...list].map(el => el.children.length[1]);
+// let length = elements.map(el => el.children.length);
+// for (let i = 0; i < title.length; i += 1) {
+//     console.log(`Категория:${title[i]}, Длина:${length[i]}`)};
 
 //________________Exersice2____
+// const ingredients = [
+//     'Картошка',
+//     'Грибы',
+//     'Чеснок',
+//     'Помидоры',
+//     'Зелень',
+//     'Приправы',
+//   ];
+
+//   let list = document.querySelector('#ingredients')
+//   console.log(list);
+//   const addToList = function (array) {
+//       for (let i = 0; i < array.length; i++) {
+//           let item = document.createElement('li');
+//           list append(item);
+//           item.textContent = array[i];
+//       }
+//   }
+//   addToList(ingredients);
 
 //_______Ex3______
 // const images = [
@@ -47,6 +73,23 @@
 // addToGallery(images);
 
 //_______________Ex4___________
+// let counterValue = 0;
+// let incB = document.querySelectorAll('button')[1];
+// let decB = document.querySelectorAll('button')[0];
+// let value = document.querySelector('#value');
+
+// const onIncrement = function () {
+//     counterValue += 1;
+//     value.textContent = counterValue;
+// }
+
+// const onDecrement = function () {
+//     counterValue -= 1;
+//     value.textContent = counterValue;
+// }
+
+// incB.addEventListener('click', onIncrement);
+// decB.addEventListener('click', onDecrement);
 
 //________________Ex5_________
 //  let input = document.querySelector('#name-input');
