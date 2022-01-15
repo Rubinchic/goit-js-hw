@@ -140,17 +140,6 @@ let audio27 = new Audio('./.mp3');
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 function clickFunc (e) {
 e.target.classList.contains('button1') ? audio1.play() : 
 e.target.classList.contains('button2') ? audio2.play() : 

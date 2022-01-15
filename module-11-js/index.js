@@ -2,30 +2,29 @@
 
 // _________________________________Exersice1____________
 
-// const colors = [
-//     '#FFFFFF',
-//     '#2196F3',
-//     '#4CAF50',
-//     '#FF9800',
-//     '#009688',
-//     '#795548',
-// ];
+const colors = [
+    '#2196F3',
+    '#4CAF50',
+    '#FF9800',
+    '#009688',
+    '#795548',
+];
 
-// let body = document.querySelector('body');
+let body = document.querySelector('body');
 
-// let start = document.querySelector('.start');
+let start = document.querySelector('.start');
 
-// let stop = document.querySelector('.stop');
+let stop = document.querySelector('.stop');
 
-// function ChangeColor() {
-//     body.style.backgroundColor = colors[Math.floor(Math.random()*5)]
-// }
+function ChangeColor() {
+    body.style.backgroundColor = colors[Math.floor(Math.random()*5)]
+}
 
-// let StartInt;
+let StartInt;
 
-// start.addEventListener('click', () => StartInt ? "" : StartInt = setInterval(ChangeColor, 1000));
+start.addEventListener('click', () => StartInt ? "" : StartInt = setInterval(ChangeColor, 900));
 
-// stop.addEventListener('click', () => clearInterval(StartInt));
+stop.addEventListener('click', () => clearInterval(StartInt));
 
 // _________________________________Exersice2____________
 
